@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db223ba7-bea5-428e-a07f-3236299d6518")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 29.21 26.67)
+		(size 39.37 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae24db84-a178-4fbd-8f5c-454ff5196e96")
+		(property "Sheetname" "Power_Management"
+			(at 29.21 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_management.kicad_sch"
+			(at 29.21 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Auralab_Workstation"
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 26.67)
+		(size 39.37 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c16f7da9-ca09-4be1-a20b-2ef107f7ee2d")
+		(property "Sheetname" "Analog_Front_End"
+			(at 116.84 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_front_end.kicad_sch"
+			(at 116.84 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Auralab_Workstation"
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 26.67)
+		(size 39.37 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfd3b6e3-099d-4fe0-98e0-4d9a9e743bbe")
+		(property "Sheetname" "RP2040_Core"
+			(at 72.39 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040_core.kicad_sch"
+			(at 72.39 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Auralab_Workstation"
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
