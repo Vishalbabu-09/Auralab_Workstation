@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 115.57 26.67)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15949506-3bc7-4c2f-a211-94c4f1c42d64")
+		(property "Sheetname" "Analog_part"
+			(at 115.57 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcbwaycontest.kicad_sch"
+			(at 115.57 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Auralab_Workstation"
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.21 26.67)
 		(size 39.37 22.86)
 		(exclude_from_sim no)
@@ -43,48 +85,6 @@
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.84 26.67)
-		(size 39.37 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c16f7da9-ca09-4be1-a20b-2ef107f7ee2d")
-		(property "Sheetname" "Analog_Front_End"
-			(at 116.84 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "analog_front_end.kicad_sch"
-			(at 116.84 50.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
-					(page "4")
 				)
 			)
 		)

@@ -2486,6 +2486,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2572,6 +2578,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2639,6 +2651,12 @@
 		(instances
 			(project ""
 				(path "/0cb921c9-5493-42a4-9366-73ecb4110608"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -2713,6 +2731,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2783,6 +2807,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2849,6 +2879,12 @@
 		(instances
 			(project ""
 				(path "/0cb921c9-5493-42a4-9366-73ecb4110608"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
 					(reference "R3")
 					(unit 1)
 				)
@@ -2941,6 +2977,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3007,6 +3049,12 @@
 		(instances
 			(project ""
 				(path "/0cb921c9-5493-42a4-9366-73ecb4110608"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
 					(reference "R1")
 					(unit 1)
 				)
@@ -3105,6 +3153,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3181,6 +3235,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3247,6 +3307,12 @@
 		(instances
 			(project ""
 				(path "/0cb921c9-5493-42a4-9366-73ecb4110608"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
 					(reference "C1")
 					(unit 1)
 				)
@@ -3337,12 +3403,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
