@@ -2006,6 +2006,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 67.31 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c76c60f-e3db-40b3-b925-dc108c2bb8c5")
+	)
+	(junction
+		(at 92.71 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9473b72-16d1-4e36-94c0-da85b70d3011")
+	)
 	(wire
 		(pts
 			(xy 38.1 83.82) (xy 38.1 113.03)
@@ -2015,6 +2027,76 @@
 			(type default)
 		)
 		(uuid "03495d51-2677-433c-bcea-6b6d628d8636")
+	)
+	(wire
+		(pts
+			(xy 62.23 151.13) (xy 69.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047eb303-670c-4bba-b9d1-a98be93f2833")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 92.71 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07df494e-be10-4197-8839-1aada62ad108")
+	)
+	(wire
+		(pts
+			(xy 92.71 104.14) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b122e98-f358-4d96-8e52-42907525800f")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10df55c2-d2f9-4186-9073-f7631a491a40")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 62.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26585cfb-0528-4b51-b4b9-b37b3046f310")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 161.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1b358a-cef6-4146-ba02-804671920e0a")
+	)
+	(wire
+		(pts
+			(xy 67.31 153.67) (xy 67.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32093d3c-9833-45d5-ba06-ae86fcd887da")
 	)
 	(wire
 		(pts
@@ -2028,13 +2110,163 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 83.82) (xy 92.71 107.95)
+			(xy 92.71 121.92) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4450e9c1-3258-4af1-91ed-bdf1548ada65")
+	)
+	(wire
+		(pts
+			(xy 67.31 153.67) (xy 69.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5921cd96-cb9f-4c2e-b60b-ad510aed188f")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afafe92-8602-4c3d-87d6-ba2973a7b359")
+	)
+	(wire
+		(pts
+			(xy 161.29 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcb43b8-a205-4453-8ff7-7e4814ca7f5a")
+	)
+	(wire
+		(pts
+			(xy 109.22 158.75) (xy 109.22 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7f09a9-20cb-4733-b7ff-adfcc1789327")
+	)
+	(wire
+		(pts
+			(xy 69.85 140.97) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825fcf74-90e4-4331-977d-70f61e726a40")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 87.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afc729a-7a68-46bc-a6ef-3c0f944fe738")
+	)
+	(wire
+		(pts
+			(xy 57.15 161.29) (xy 57.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aabfafe-659f-4f3f-b948-205a22a7d5e8")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf30b6a-aaf4-4fb3-967f-24e8c74db732")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d347ef6-6f97-4747-8d4f-5243b8112233")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 121.92 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e02f6c0-fb1e-454c-abf6-de7185980225")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a118afb6-e2b3-4e3d-9e1d-9c0b4aec8df0")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.39) (xy 62.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2275249-8406-4630-bbcc-a74d2068b49f")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 92.71 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa8cdb69-9bf2-4668-8a1e-96ad31d8d804")
+	)
+	(wire
+		(pts
+			(xy 62.23 140.97) (xy 62.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2814ce3-ac2f-4e94-a4dc-f4835501f62c")
+	)
+	(wire
+		(pts
+			(xy 116.84 163.83) (xy 67.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9808b52-1bbd-4ca5-83da-8853869b4333")
 	)
 	(wire
 		(pts
@@ -2045,6 +2277,46 @@
 			(type default)
 		)
 		(uuid "c1eddd42-7a76-4184-a5fa-419b646b3d6f")
+	)
+	(wire
+		(pts
+			(xy 87.63 104.14) (xy 92.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41b9d63-ea21-432e-9f43-1934602cc331")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d673ba85-a19d-4a21-bc33-51255fbeabbd")
+	)
+	(wire
+		(pts
+			(xy 57.15 186.69) (xy 109.22 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da683438-4ef4-44a7-a90f-c921fa55b6ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 153.67) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daba387b-b516-41b5-9c09-57ac1f6d398a")
 	)
 	(wire
 		(pts
@@ -2075,6 +2347,70 @@
 			(type default)
 		)
 		(uuid "f3506b60-277d-4cf3-afa2-c4b2c8ffe4b1")
+	)
+	(wire
+		(pts
+			(xy 57.15 168.91) (xy 57.15 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdda2dbf-a41d-49f9-9b00-0b683e6ef38c")
+	)
+	(wire
+		(pts
+			(xy 73.66 115.57) (xy 87.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe539271-d190-4986-a8e2-78aa984542f1")
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 90.17 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "587e17a9-687a-4c52-9ad3-f5c83f54ce39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8865 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 90.17 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bfe2f50-fbe3-4ab0-bcf5-f889d3273b7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.826 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Reference_Voltage:REF3033")
@@ -2311,7 +2647,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 111.76 0)
+		(at 57.15 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2320,7 +2656,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a2c184b-1b69-436a-80f0-6c71bcd6709a")
 		(property "Reference" "R2"
-			(at 146.05 110.4899 0)
+			(at 59.69 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2665,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 146.05 113.0299 0)
+			(at 59.69 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.732 111.76 90)
+			(at 55.372 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 111.76 0)
+			(at 57.15 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2692,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 111.76 0)
+			(at 57.15 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +3109,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BS170")
-		(at 153.67 96.52 0)
+		(at 114.3 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2782,7 +3118,7 @@
 		(fields_autoplaced yes)
 		(uuid "be746f71-a38d-4175-bfc4-c08a8b7fa16d")
 		(property "Reference" "Q1"
-			(at 160.02 95.2499 0)
+			(at 120.65 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +3127,7 @@
 			)
 		)
 		(property "Value" "BS170"
-			(at 160.02 97.7899 0)
+			(at 120.65 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +3136,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 158.75 98.425 0)
+			(at 119.38 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +3147,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
-			(at 158.75 100.33 0)
+			(at 119.38 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +3157,7 @@
 			)
 		)
 		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
-			(at 153.67 96.52 0)
+			(at 114.3 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
