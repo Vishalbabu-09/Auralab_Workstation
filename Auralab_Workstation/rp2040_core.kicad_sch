@@ -868,6 +868,394 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2641,6 +3029,12 @@
 		)
 	)
 	(junction
+		(at 33.02 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3271780d-bfd5-4d92-89c8-af9f57ccfae2")
+	)
+	(junction
 		(at 133.35 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2699,10 +3093,6 @@
 		(uuid "837e8101-3706-40c0-8a62-15429c795d10")
 	)
 	(no_connect
-		(at 154.94 93.98)
-		(uuid "83f28e3b-7bc8-4013-aae4-6e99bbdeca3e")
-	)
-	(no_connect
 		(at 154.94 101.6)
 		(uuid "88ad9de5-46ee-4964-894f-74703d3cb53e")
 	)
@@ -2721,6 +3111,16 @@
 	(no_connect
 		(at 154.94 127)
 		(uuid "c34a7484-309b-4ce1-bb12-166b0af572be")
+	)
+	(wire
+		(pts
+			(xy 58.42 160.02) (xy 33.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0290e5ee-35c8-4335-87b5-c35ba61ffa89")
 	)
 	(wire
 		(pts
@@ -2784,6 +3184,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 160.02) (xy 33.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b35682-4935-4e43-a5c7-703d92329bb6")
+	)
+	(wire
+		(pts
 			(xy 132.08 58.42) (xy 133.35 58.42)
 		)
 		(stroke
@@ -2811,6 +3221,16 @@
 			(type default)
 		)
 		(uuid "4bc0e1cc-204a-447b-92e2-a8ef75aecb62")
+	)
+	(wire
+		(pts
+			(xy 29.21 153.67) (xy 33.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51149fb4-a583-454f-850e-d7ac77fd671e")
 	)
 	(wire
 		(pts
@@ -2894,6 +3314,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 156.21) (xy 58.42 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882bb586-2eec-4f69-b641-8b24d32f6493")
+	)
+	(wire
+		(pts
 			(xy 137.16 54.61) (xy 137.16 58.42)
 		)
 		(stroke
@@ -2974,6 +3404,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 153.67) (xy 43.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5c2021-d186-4861-8d55-b2098634e804")
+	)
+	(wire
+		(pts
 			(xy 96.52 91.44) (xy 104.14 91.44)
 		)
 		(stroke
@@ -3011,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "d912f687-b964-4a3e-8d46-3daeafc5a43d")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18107e9-f96f-4470-b8d6-5904f04e7acf")
 	)
 	(wire
 		(pts
@@ -3108,6 +3558,28 @@
 			)
 		)
 	)
+	(global_label "ROT_SW"
+		(shape bidirectional)
+		(at 58.42 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a8c25c2-985e-48ec-bbfd-e3c668bf9f68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.7131 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_CS"
 		(shape bidirectional)
 		(at 154.94 81.28 0)
@@ -3130,7 +3602,7 @@
 			)
 		)
 	)
-	(global_label "BTN_MENU_NEXT"
+	(global_label "ROT_A"
 		(shape bidirectional)
 		(at 175.26 119.38 0)
 		(fields_autoplaced yes)
@@ -3142,7 +3614,7 @@
 		)
 		(uuid "23289155-9d2c-488d-bd25-b5d2cbc625f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.7778 119.38 0)
+			(at 184.9808 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,6 +3884,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROT_B"
+		(shape bidirectional)
+		(at 168.91 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51c64d54-e99c-49b6-b014-98cb0cc58b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.8122 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3790,6 +4284,28 @@
 			)
 		)
 	)
+	(global_label "ROT_B"
+		(shape bidirectional)
+		(at 43.18 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb5e9904-d993-4d74-94b5-46d9e2352caa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2778 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QSPI_IO3"
 		(shape bidirectional)
 		(at 104.14 96.52 180)
@@ -3944,7 +4460,7 @@
 			)
 		)
 	)
-	(global_label "BTN_MENU_SELECT"
+	(global_label "ROT_SW"
 		(shape bidirectional)
 		(at 154.94 121.92 0)
 		(fields_autoplaced yes)
@@ -3956,7 +4472,7 @@
 		)
 		(uuid "e257bce8-e262-4804-bb69-c9acc13ef627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.5744 121.92 0)
+			(at 166.2331 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,6 +4627,28 @@
 		(uuid "f933430a-9d28-42b3-a56a-35a32d238f5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.8963 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROT_A"
+		(shape bidirectional)
+		(at 43.18 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fec296d4-2846-4287-8aa9-c2b8eae2a057")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4592 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,6 +5792,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 29.21 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7431e113-29f2-4a06-92eb-f0ea7a59fbc0")
+		(property "Reference" "#PWR024"
+			(at 29.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "095a9f63-7265-4bdf-8931-c5808d909cb6")
+		)
+		(instances
+			(project ""
+				(path "/7b3e6f41-6595-497a-a0ba-4d530102dce3"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 185.42 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5899,6 +6503,83 @@
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/dfd3b6e3-099d-4fe0-98e0-4d9a9e743bbe"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 50.8 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2cc655a-5a08-4bea-b582-7752db258375")
+		(property "Reference" "SW1"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "9fb02d7a-60ae-49a5-a523-954e6259e27f")
+		)
+		(pin "A"
+			(uuid "b63b0365-8e2f-41f2-a6d2-e9ef09e5ac72")
+		)
+		(pin "C"
+			(uuid "17e2f5cc-dfbd-4a1c-93e0-0ba89eeecc98")
+		)
+		(pin "S1"
+			(uuid "db59fd9f-54f1-4f63-b3f5-6fe6367132ff")
+		)
+		(pin "B"
+			(uuid "7cb0a71b-4934-4922-a67a-71fb847279d1")
+		)
+		(instances
+			(project ""
+				(path "/7b3e6f41-6595-497a-a0ba-4d530102dce3"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
