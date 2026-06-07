@@ -2578,16 +2578,6 @@
 		)
 		(uuid "fe539271-d190-4986-a8e2-78aa984542f1")
 	)
-	(label "CURRENT_ALERT"
-		(at 92.71 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07a4c6e3-05a4-4b97-8a13-855346d133f1")
-	)
 	(global_label "GNDA"
 		(shape bidirectional)
 		(at 77.47 62.23 0)
@@ -2716,6 +2706,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CURRENT_ALERT"
+		(shape bidirectional)
+		(at 92.71 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35a9ba72-24f8-4081-9b7e-8a116514efff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 175.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2944,7 +2956,7 @@
 	)
 	(global_label "+3V3_DIGITAL"
 		(shape bidirectional)
-		(at 147.32 66.04 90)
+		(at 147.32 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2954,7 +2966,7 @@
 		)
 		(uuid "e5902a8e-df4f-4f46-b34a-5b68efe50b13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 49.062 90)
+			(at 164.298 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
