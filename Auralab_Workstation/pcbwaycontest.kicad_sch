@@ -2031,6 +2031,12 @@
 		(uuid "c06a406f-1b55-4573-a342-e330fdd0b3d3")
 	)
 	(junction
+		(at 62.23 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cda8ba8e-70a2-4619-b494-a4c45c3794cf")
+	)
+	(junction
 		(at 92.71 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,6 +2067,16 @@
 			(type default)
 		)
 		(uuid "047eb303-670c-4bba-b9d1-a98be93f2833")
+	)
+	(wire
+		(pts
+			(xy 58.42 146.05) (xy 62.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d0cd9f-e8b0-4a47-9888-f67587c96c03")
 	)
 	(wire
 		(pts
@@ -2101,6 +2117,16 @@
 			(type default)
 		)
 		(uuid "1e687d1a-e2be-4cf2-a604-62db71094c40")
+	)
+	(wire
+		(pts
+			(xy 90.17 156.21) (xy 92.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f12c90-de3d-4d06-809a-45cee03c6d98")
 	)
 	(wire
 		(pts
@@ -2384,13 +2410,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 140.97) (xy 62.23 151.13)
+			(xy 62.23 140.97) (xy 62.23 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2814ce3-ac2f-4e94-a4dc-f4835501f62c")
+	)
+	(wire
+		(pts
+			(xy 62.23 146.05) (xy 62.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61b4f83-c7d8-4bcb-aee8-45028aa192f2")
 	)
 	(wire
 		(pts
@@ -2542,6 +2578,16 @@
 		)
 		(uuid "fe539271-d190-4986-a8e2-78aa984542f1")
 	)
+	(label "CURRENT_ALERT"
+		(at 92.71 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07a4c6e3-05a4-4b97-8a13-855346d133f1")
+	)
 	(global_label "GNDA"
 		(shape bidirectional)
 		(at 77.47 62.23 0)
@@ -2599,6 +2645,28 @@
 		(uuid "0d4a92bd-645f-4a0e-9e47-0bab5e3b841e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 75.0956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CURRENT_IN"
+		(shape bidirectional)
+		(at 58.42 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e43989f-cc71-478a-935c-f586a869bfdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.833 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,6 +2734,28 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 135.7246 90)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 90.17 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a0e5c6f-fdf2-4ef7-b7af-10459c047b02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.137 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,6 +2854,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 90.17 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7645ac4b-d18b-4784-b56a-f577bb95f03c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.137 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_MISO"
 		(shape bidirectional)
 		(at 137.16 52.07 0)
@@ -2832,7 +2944,7 @@
 	)
 	(global_label "+3V3_DIGITAL"
 		(shape bidirectional)
-		(at 147.32 66.04 0)
+		(at 147.32 66.04 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2842,7 +2954,7 @@
 		)
 		(uuid "e5902a8e-df4f-4f46-b34a-5b68efe50b13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.298 66.04 0)
+			(at 147.32 49.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31d9975e-44f3-4b1f-9116-571c07325d55")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 143.51 72.3899 0)
 			(effects
 				(font
@@ -2948,12 +3060,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "U?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2966,7 +3072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e6d4d7-6eeb-4462-b6a7-2da923efa50d")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 119.38 88.9 0)
 			(effects
 				(font
@@ -3040,12 +3146,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "U?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3058,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83be0ccf-fb04-4dec-8ac4-25e593d5c0d3")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 68.58 104.14 0)
 			(effects
 				(font
@@ -3117,12 +3217,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "SW?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3135,7 +3229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a2c184b-1b69-436a-80f0-6c71bcd6709a")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 59.69 163.8299 0)
 			(effects
 				(font
@@ -3193,12 +3287,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3211,7 +3299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9026a1f2-3ea8-4902-ab43-b9fedbc78154")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 46.99 82.8431 0)
 			(effects
 				(font
@@ -3269,12 +3357,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "J?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3287,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9c56b4-88ef-4ef9-a9cf-7b16dc4aa575")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 127 116.8399 0)
 			(effects
 				(font
@@ -3345,12 +3427,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3363,7 +3439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b04587-42d2-44a8-92f4-25b914945ecb")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 124.0633 59.69 0)
 			(effects
 				(font
@@ -3439,12 +3515,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "U?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3457,7 +3527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f84d14-22c4-4955-a4c4-891164bf53d5")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 95.25 110.4899 0)
 			(effects
 				(font
@@ -3515,12 +3585,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3533,7 +3597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc0f9d64-50b2-474f-86f3-22d02cf74832")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 82.1533 133.35 0)
 			(effects
 				(font
@@ -3615,12 +3679,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "U?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3633,7 +3691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be746f71-a38d-4175-bfc4-c08a8b7fa16d")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 120.65 157.4799 0)
 			(effects
 				(font
@@ -3697,12 +3755,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3715,7 +3767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3ce87c1-80e6-44d1-8b3a-f18f061ff2de")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 96.52 78.7399 0)
 			(effects
 				(font
@@ -3773,12 +3825,6 @@
 					(unit 1)
 				)
 			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3791,7 +3837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3cece39-3402-4f29-be37-b50339b2616b")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -3862,12 +3908,6 @@
 			(project ""
 				(path "/0cb921c9-5493-42a4-9366-73ecb4110608"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "Auralab_Workstation"
-				(path "/db223ba7-bea5-428e-a07f-3236299d6518/15949506-3bc7-4c2f-a211-94c4f1c42d64"
-					(reference "D?")
 					(unit 1)
 				)
 			)
