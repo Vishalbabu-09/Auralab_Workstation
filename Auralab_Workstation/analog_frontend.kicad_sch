@@ -5641,21 +5641,19 @@
 		(fields_autoplaced yes)
 		(uuid "9026a1f2-3ea8-4902-ab43-b9fedbc78154")
 		(property "Reference" "J1"
-			(at 31.75 29.5031 0)
+			(at 35.8774 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 31.75 32.0431 0)
+			(at 35.8774 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"

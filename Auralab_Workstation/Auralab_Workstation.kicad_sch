@@ -20018,22 +20018,20 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72519fb0-a67f-4834-bae5-cfa0db6833f2")
-		(property "Reference" "J11"
-			(at 30.48 186.9831 0)
+		(property "Reference" "J1"
+			(at 34.6074 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 30.48 189.5231 0)
+			(at 34.6074 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
@@ -20072,7 +20070,7 @@
 		(instances
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518"
-					(reference "J11")
+					(reference "J1")
 					(unit 1)
 				)
 			)
