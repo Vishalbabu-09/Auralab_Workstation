@@ -6651,7 +6651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0316de1e-8672-471e-bfdd-90e950f9c195")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 107.95 102.8699 0)
 			(effects
 				(font
@@ -6711,7 +6711,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6726,7 +6726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0874c945-c6cf-4dc8-a6c2-face19c5c32c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR029"
 			(at 213.36 114.3 0)
 			(effects
 				(font
@@ -6783,7 +6783,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6799,7 +6799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e37d956-183a-43d7-a11c-12324a44fabe")
-		(property "Reference" "F?"
+		(property "Reference" "F1"
 			(at 96.52 57.1499 0)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "F?")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -6876,7 +6876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171ded88-cefd-493b-8673-890c491e334f")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 48.26 119.7609 0)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6951,7 +6951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "177e6d34-3b1d-4daf-a4e6-8da11a249a9b")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 105.41 38.862 0)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7041,7 +7041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c9497b5-43fa-4a09-bcb2-0666f11c2dab")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -7098,7 +7098,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26297a0b-e49b-4930-97fa-2bed56b4b150")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 219.71 99.568 90)
 			(effects
 				(font
@@ -7171,7 +7171,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7186,7 +7186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d40f441-9563-40e7-8240-674368182425")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 208.534 134.112 0)
 			(effects
 				(font
@@ -7267,7 +7267,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7283,7 +7283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "315acdb4-8f1c-4210-b6f0-cce7403eead2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 73.66 144.78 0)
 			(effects
 				(font
@@ -7339,7 +7339,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7354,7 +7354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3425d604-3b75-411d-a639-ad3760802a7e")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 191.77 67.3099 0)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7430,7 +7430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c4ea7d-107d-4bba-a6f8-94fb933dc3df")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 44.45 134.62 0)
 			(effects
 				(font
@@ -7486,7 +7486,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "359e05a9-3fc8-4d32-84ea-1ce5a1482fb6")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 124.968 71.882 0)
 			(effects
 				(font
@@ -7568,7 +7568,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "U?")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "363e4064-0bad-4ccc-a46d-fe90f1092628")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 125.73 114.808 90)
 			(effects
 				(font
@@ -7641,7 +7641,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7656,7 +7656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36dd529d-c92b-43f0-85a4-f6a396089bbe")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 59.69 35.56 90)
 			(effects
 				(font
@@ -7714,7 +7714,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7729,7 +7729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38b4014d-594c-47d2-8841-2c8b0e37fb1e")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 209.55 119.3799 0)
 			(effects
 				(font
@@ -7789,7 +7789,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7805,7 +7805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "412707b7-64bd-4631-82e7-0788a144de5e")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 180.34 118.872 0)
 			(effects
 				(font
@@ -7872,7 +7872,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "D?")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7887,7 +7887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46eecea9-fc50-4470-ba88-fc3156be2c60")
-		(property "Reference" "FB?"
+		(property "Reference" "FB1"
 			(at 88.646 78.994 0)
 			(effects
 				(font
@@ -7947,7 +7947,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "FB?")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -7963,7 +7963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4802c60d-1760-4b4d-8470-2029a4f0b4b5")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 49.2125 105.41 0)
 			(effects
 				(font
@@ -8021,7 +8021,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8036,7 +8036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5466b28b-7626-4e27-8997-9ac3d5e6ba8a")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 121.666 131.064 0)
 			(effects
 				(font
@@ -8094,7 +8094,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8109,7 +8109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57c30e49-20c1-40bd-a3a7-2c863806309e")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 58.42 33.02 90)
 			(effects
 				(font
@@ -8167,7 +8167,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d6467ce-63b8-4d1d-92fc-b49c6adaffde")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 87.122 57.912 0)
 			(effects
 				(font
@@ -8241,7 +8241,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64255e1b-bfb0-4a83-8ef0-343c9bf7c564")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -8313,7 +8313,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8329,7 +8329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6434d53b-33b2-41d0-8fc6-1d42dff009a5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR024"
 			(at 138.43 115.57 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8402,7 +8402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c035e1-bc28-4fdc-9807-00bb47153c84")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR031"
 			(at 228.6 34.29 0)
 			(effects
 				(font
@@ -8459,7 +8459,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8474,7 +8474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "795e89dd-141c-4c50-8f28-3b34f0ec7972")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR027"
 			(at 182.88 76.2 0)
 			(effects
 				(font
@@ -8531,7 +8531,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88789305-e529-4cda-99f3-80634ff77e8d")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 60.96 102.87 90)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -8620,7 +8620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cedacbf-c773-4176-a463-8ac4cae66a78")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR028"
 			(at 196.85 134.62 0)
 			(effects
 				(font
@@ -8676,7 +8676,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8691,7 +8691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e84c894-92c6-456a-bf9f-0c55d0f69ffe")
-		(property "Reference" "L?"
+		(property "Reference" "L2"
 			(at 121.92 139.7 90)
 			(effects
 				(font
@@ -8749,7 +8749,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "L?")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8764,7 +8764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "914b9950-241c-42cc-b94f-c47ad32c42e4")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 148.59 75.438 90)
 			(effects
 				(font
@@ -8822,7 +8822,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8837,7 +8837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91bb9276-8966-4ad4-98f7-3702ba7e4c32")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR015"
 			(at 68.58 33.02 0)
 			(effects
 				(font
@@ -8894,7 +8894,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8910,7 +8910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "951c7c6f-9e3c-4769-ad56-d07b0de74f5f")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 85.09 102.87 0)
 			(effects
 				(font
@@ -9037,7 +9037,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9053,7 +9053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d59278-4c1b-428a-aa96-2af2f7f5234d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 106.68 138.43 0)
 			(effects
 				(font
@@ -9110,7 +9110,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a17aba40-c017-41fa-9697-8de945e2f2d5")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG01"
 			(at 37.465 77.47 0)
 			(effects
 				(font
@@ -9183,7 +9183,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#FLG?")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -9199,7 +9199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3936ad5-d1a4-4c6a-aada-f7a6605ca4cb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 86.36 158.75 0)
 			(effects
 				(font
@@ -9256,7 +9256,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a478e0de-4da6-45b3-b068-0d9b6e413b83")
-		(property "Reference" "U?"
+		(property "Reference" "U9"
 			(at 216.916 50.038 0)
 			(effects
 				(font
@@ -9367,7 +9367,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "U?")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9382,7 +9382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a553ad5f-9642-4d92-ace5-a98b7ba29774")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 139.7 30.48 0)
 			(effects
 				(font
@@ -9439,7 +9439,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9454,7 +9454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a84c17d8-2980-4b30-9d71-01f65f6bdd63")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 209.55 55.88 0)
 			(effects
 				(font
@@ -9510,7 +9510,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9525,7 +9525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac57f916-7640-4d14-97d7-06713ec36c31")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 159.512 41.148 0)
 			(effects
 				(font
@@ -9588,7 +9588,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9603,7 +9603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed93fa2-0441-4741-b60c-a74e2898c5f1")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 127.762 120.904 90)
 			(effects
 				(font
@@ -9661,7 +9661,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9676,7 +9676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1433177-c4bf-45d2-a44b-6cd1434e8b07")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 56.896 83.058 0)
 			(effects
 				(font
@@ -9779,7 +9779,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9795,7 +9795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb7dbc26-66fb-46be-a686-7e8eddae3f64")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG03"
 			(at 101.6 83.185 0)
 			(effects
 				(font
@@ -9851,7 +9851,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#FLG?")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9866,7 +9866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7087a67-d170-4cd9-80c5-428a914ba1d6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR032"
 			(at 229.87 102.87 0)
 			(effects
 				(font
@@ -9923,7 +9923,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9938,7 +9938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0c0def3-ebe1-4390-867c-151a7d25c9a7")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 172.974 111.76 90)
 			(effects
 				(font
@@ -9996,7 +9996,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10012,7 +10012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c05d2d-5480-4b3b-8252-6ab1c42f4abd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 35.56 85.09 0)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc3cf7f8-de60-403c-b47b-00e94e77fa57")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 172.974 116.84 90)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10157,7 +10157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfb6eedf-2624-4ac1-8e9a-a1160df7626f")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG02"
 			(at 42.545 127 0)
 			(effects
 				(font
@@ -10214,7 +10214,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#FLG?")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10230,7 +10230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1243178-7c81-4216-bd9d-344b56ab814b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR018"
 			(at 82.55 152.4 0)
 			(effects
 				(font
@@ -10286,7 +10286,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10302,7 +10302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e427561b-04cf-47be-a139-bd238e6b4d0c")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 134.62 55.8799 0)
 			(effects
 				(font
@@ -10362,7 +10362,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10378,7 +10378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e846afe3-d6ac-40a6-bc64-df85e3cd9052")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 137.16 140.97 0)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eacf507e-9e19-4bb9-b92f-6d25389291a8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR025"
 			(at 139.7 87.63 0)
 			(effects
 				(font
@@ -10507,7 +10507,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10522,7 +10522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f070e18c-2630-4774-9889-e752685ebc4a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 130.81 46.99 0)
 			(effects
 				(font
@@ -10578,7 +10578,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10594,7 +10594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fed01b48-ad9e-41d7-b7a3-62aef538a3e7")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 179.832 114.046 0)
 			(effects
 				(font
@@ -10661,7 +10661,7 @@
 			)
 			(project "Auralab_Workstation"
 				(path "/db223ba7-bea5-428e-a07f-3236299d6518/ae24db84-a178-4fbd-8f5c-454ff5196e96"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 			)
