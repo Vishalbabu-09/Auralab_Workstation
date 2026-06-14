@@ -3823,6 +3823,12 @@
 		)
 	)
 	(junction
+		(at 215.9 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e4a084d-b295-4b5f-855a-eaae112fb52b")
+	)
+	(junction
 		(at 33.02 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4347,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "ecb2ce31-e8a8-42ff-8750-e1a00a70bfba")
+	)
+	(wire
+		(pts
+			(xy 220.98 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03d72ca-7a6f-446d-97fd-4cf862f90030")
 	)
 	(global_label "USB_D_M"
 		(shape bidirectional)
@@ -5246,6 +5262,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_filtered"
+		(shape bidirectional)
+		(at 220.98 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4ab745e-07d3-42fd-9da1-1204434f0ae3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.9665 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
