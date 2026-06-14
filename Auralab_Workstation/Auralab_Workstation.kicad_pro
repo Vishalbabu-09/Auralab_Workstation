@@ -623,8 +623,8 @@
       "RP2040_Core"
     ],
     [
-      "15949506-3bc7-4c2f-a211-94c4f1c42d64",
-      "Analog_part"
+      "aff8bc46-1fc9-42ac-88c6-23b3f6eac5f1",
+      "Analog_Frontend"
     ]
   ],
   "text_variables": {}
