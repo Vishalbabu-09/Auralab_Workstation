@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -110,9 +116,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -153,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -449,7 +462,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -512,6 +524,50 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Analog_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "Analog_Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Digital_HighSpeed",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.25,
+        "name": "Power_Heavy",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -519,18 +575,59 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power_Heavy",
+        "pattern": "VBUS_SYSTEM"
+      },
+      {
+        "netclass": "Power_Heavy",
+        "pattern": "+5V_RAW"
+      },
+      {
+        "netclass": "Analog_Power",
+        "pattern": "*Vout*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*+3V3*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*+1.1*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*ADC*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*TFT*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*QSPI*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*USB*"
+      },
+      {
+        "netclass": "Analog_Signals",
+        "pattern": "*Net*"
+      },
+      {
+        "netclass": "Digital_HighSpeed",
+        "pattern": "*X*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "specctra_dsn": "../../../Downloads/ani1.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -541,7 +638,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${Auralab_Workstation}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -603,12 +700,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -641,24 +762,16 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "D:/Kicad_PCB_contest/Auralab_Workstation/Auralab_Workstation/",
+    "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
         "filename": "Auralab_Workstation.kicad_sch",
         "name": "Auralab_Workstation",
-        "uuid": "db223ba7-bea5-428e-a07f-3236299d6518"
+        "uuid": "c5f68108-4fdf-4ec2-9c42-344c31fc9907"
       }
     ],
     "used_designators": "",
@@ -666,20 +779,8 @@
   },
   "sheets": [
     [
-      "db223ba7-bea5-428e-a07f-3236299d6518",
+      "c5f68108-4fdf-4ec2-9c42-344c31fc9907",
       "Auralab_Workstation"
-    ],
-    [
-      "ae24db84-a178-4fbd-8f5c-454ff5196e96",
-      "Power_Management"
-    ],
-    [
-      "dfd3b6e3-099d-4fe0-98e0-4d9a9e743bbe",
-      "RP2040_Core"
-    ],
-    [
-      "aff8bc46-1fc9-42ac-88c6-23b3f6eac5f1",
-      "Analog_Frontend"
     ]
   ],
   "text_variables": {},
