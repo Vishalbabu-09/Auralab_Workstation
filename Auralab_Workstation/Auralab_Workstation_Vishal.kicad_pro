@@ -635,7 +635,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing/Drill/",
       "specctra_dsn": "../../../Downloads/ani1.dsn",
       "vrml": ""
     },
