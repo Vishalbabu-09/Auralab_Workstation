@@ -35,9 +35,9 @@ To preserve 12-bit ADC accuracy while operating high-frequency digital clocks ri
 | Layer | Name | Copper Type | Main Signals & Plane Assignments |
 | :--- | :--- | :--- | :--- |
 | **Layer 1** | `F.Cu` (Top) | Signal / High-Speed | Component placement, SPI buses (Display, Flash, ADC), $\text{I}^2\text{C}$ lines, and sensitive analog trace lines. |
-| **Layer 2** | `In1.Cu` | Split Ground Plane | **`GND` (Digital Ground Plane)** under the RP2040/Flash.<br>**`AGND` (Analog Ground Plane)** under the Op-Amp/ADC/Reference.<br>*Isolated by a physical gap and joined strictly at a single point via a `NetTie_2` footprint near the power entrance.* |
-| **Layer 3** | `In2.Cu` | Power Plane | Solid power routing zones split cleanly into **`+3V3_DIGITAL`**, **`+3V3_ANALOG`**, and **`+5V_RAW`** copper pours to eliminate voltage drops. |
-| **Layer 4** | `B.Cu` (Bottom) | Signal / Return Shield | Low-frequency control signals (Encoder pins, switch tracking) and secondary ground fills for via stitching shields. |
+| **Layer 2** | `In1.Cu` | Split Ground Plane | **`GND` (Digital Ground Plane)** under the RP2040/Flash, and **`GNDA` (Analog Ground Plane)** under the Op-Amp/ADC/Reference. Isolated by a physical gap and joined strictly at a single point via a `NetTie_2` footprint near the power entrance. |
+| **Layer 3** | `In2.Cu` | Dedicated Power Plane | Solid **`+3V3_DIGITAL`** power plane to provide clean, low-impedance power distribution across the digital logic core. |
+| **Layer 4** | `B.Cu` (Bottom) | Signal Layer | Dedicated strictly to routing low-frequency control signals (Encoder pins, switch tracking lines) to keep them isolated from high-speed loops. |
 
 ---
 
